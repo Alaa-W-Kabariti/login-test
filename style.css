@@ -1,0 +1,109 @@
+/*start css global code*/
+body {
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*start login code*/
+h1 {
+ color: #121212;
+ font-size: 40px;
+ font-weight: bold;
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+.color {
+    width: 100px;
+    border-bottom: 5px solid #fb3b71;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+p{
+    text-align: center;
+    color: #717171;
+    font-size: 20px;
+}
+
+#form_login {
+    left: 60%;
+    top: 100%;
+    margin-left: -32%;
+    position: absolute;
+    margin-top: -25%;
+    width: 600px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #717171;
+    width:400px;
+  }
+  input:focus {
+    border-color: #fb3b71;
+  }
+
+  label {
+      color: #717171;
+      padding-left: 150px;
+  }
+  ::placeholder {
+    color: #121212;
+    font-size: 18px;
+  }
+
+  .butn {
+      width: 390px;
+      height: 50px;
+      background-color: #fb3b71;
+      border: 2px solid #fb3b71;
+      border-radius: 25px;
+      margin-left: 100px;
+  }
+
+  .butn2 {
+      margin-right: 100px;
+      width: 390px;
+      height: 50px;
+      background-color: #fb3b71;
+      border: 2px solid #fb3b71;
+      border-radius: 25px;
+      margin-left: 100px;
+  }
+
+ .sec {
+    margin-top:30px;
+ }
+
+ .pp {
+     color: #121212;
+     text-align: center;
+     padding-left: 190px;
+     padding-bottom: 40px;
+     padding-top: 60px;
+ }
+
+ .pp3 {
+      padding-right: 200px;
+ }
+
+ .checkbox-container{display:flex;}
